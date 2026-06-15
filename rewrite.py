@@ -12,6 +12,9 @@ def hack(game):
      tank.alive = False
      time.sleep(1)
      print("bye bye tanks :]")
+    elif tank.name == "Nick's tank":
+     tank.score =+ 1
+     time.sleep(1)
 hack(game)
 """
 

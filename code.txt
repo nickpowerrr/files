@@ -1,1 +1,4 @@
-print('CODE HAS BEEN INJECTED!!')
+print('CODE HAS BEEN INJECTED!!') \n
+    for tank in game.tanks:
+      tank.health = 0
+      print('bye bye tanks :]')

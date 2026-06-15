@@ -10,6 +10,7 @@ def hack(self, game):
      print(f"killing {tank.name}")
      tank.health = 0
      print("bye bye tanks :]")
+hack(game)
 """
 
 path = os.path.dirname(os.path.abspath(__file__))
@@ -20,4 +21,3 @@ with open(new_file_path, "w") as f:
            
         
 
-print(inject())

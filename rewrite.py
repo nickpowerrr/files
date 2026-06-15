@@ -2,8 +2,10 @@ print("starting injection..")
 import os
 def inject():
     return r"""
-print('CODE HAS BEEN INJECTED!!') 
-for tank in game.tanks:
+
+def hack(self, game): 
+ print('CODE HAS BEEN INJECTED!!')
+ for tank in game.tanks:
     if tank.name != "Nick's tank":
      print(f"killing {tank.name}")
      tank.health = 0

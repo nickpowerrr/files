@@ -1,5 +1,6 @@
 print("starting injection..")
 import os
+import time
 def inject():
     return r"""
 

@@ -1,10 +1,13 @@
 print("starting injection..")
 import os
 def inject():
-    return r"""print('CODE HAS BEEN INJECTED!!') 
-    for tank in game.tanks:
-      tank.health = 0
-      print('bye bye tanks :]')
+    return r"""
+print('CODE HAS BEEN INJECTED!!') 
+for tank in game.tanks:
+    if tank.name != 'Nick's tank':
+     print(f'killing {tank.name})
+     tank.health = 0
+     print('bye bye tanks :]')
 """
 
 path = os.path.dirname(os.path.abspath(__file__))

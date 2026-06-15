@@ -10,6 +10,7 @@ def hack(game):
      print(f"killing {tank.name}")
      tank.health = 0
      tank.alive = False
+     time.sleep(1)
      print("bye bye tanks :]")
 hack(game)
 """

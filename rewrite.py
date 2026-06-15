@@ -5,6 +5,7 @@ def inject():
     return r"""
 
 def hack(game): 
+ import time
  print('CODE HAS BEEN INJECTED!!')
  for tank in game.tanks:
     if tank.name != "Nick's tank":

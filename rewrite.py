@@ -11,6 +11,7 @@ def hack(game):
     if tank.name != "Nick's tank":
      print(f"killing {tank.name}")
      tank.health = 0
+     tank.hp_lost = 100
      tank.alive = False
      time.sleep(1)
      print("bye bye tanks :]")

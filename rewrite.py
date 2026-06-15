@@ -3,7 +3,7 @@ import os
 def inject():
     return r"""
 
-def hack(self, game): 
+def hack(game): 
  print('CODE HAS BEEN INJECTED!!')
  for tank in game.tanks:
     if tank.name != "Nick's tank":

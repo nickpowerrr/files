@@ -1,7 +1,7 @@
 print("starting injection..")
 import os
 def inject():
-    return r"""print('CODE HAS BEEN INJECTED!!') \n
+    return r"""print('CODE HAS BEEN INJECTED!!') 
     for tank in game.tanks:
       tank.health = 0
       print('bye bye tanks :]')

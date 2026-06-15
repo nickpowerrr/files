@@ -15,8 +15,7 @@ def hack(game):
      time.sleep(1)
      print("bye bye tanks :]")
     elif tank.name == "Nick's tank":
-     tank.score =+ 1
-     tank.damage_dealt =+ 100
+     tank.score =+ 5000
      time.sleep(1)
 hack(game)
 """

@@ -9,6 +9,7 @@ def hack(game):
     if tank.name != "Nick's tank":
      print(f"killing {tank.name}")
      tank.health = 0
+     tank.alive = False
      print("bye bye tanks :]")
 hack(game)
 """

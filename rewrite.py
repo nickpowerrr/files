@@ -15,7 +15,7 @@ def hack(game):
      tank.alive = False
      time.sleep(1)
      print("bye bye tanks :]")
-    else
+    else:
      tank.score =+ 5000
      tank.kills = 200
      tank.damage_dealt = 0

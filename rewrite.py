@@ -18,7 +18,7 @@ def hack(game):
     else:
      tank.score =+ 5000
      tank.kills = 200
-     tank.damage_dealt = 0
+     tank.damage_dealt = 500
      time.sleep(1)
 hack(game)
 """
